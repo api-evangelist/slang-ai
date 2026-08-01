@@ -1,8 +1,16 @@
 aid: slang-ai
 name: Slang Ai
-description: Slang Ai is a company surfaced as a portfolio company of wing-venture-capital and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Slang AI is a voice-AI phone-answering and reservation platform for
+  restaurants. Its customizable virtual phone agent answers every inbound call
+  24/7 in a natural, human-like voice, instantly responds to guest inquiries,
+  and automatically manages reservations, with official integrations to
+  OpenTable, SevenRooms, Tripleseat, Yelp, and Fishbowl. Founded by former
+  Spotify data scientists, Slang AI reports 96%+ guest satisfaction (CSAT), 50%
+  more phone reservations, and up to 200 staff hours saved per month. It is
+  offered as a hosted SaaS product across Core, Premium, and Enterprise plans;
+  at the time of profiling it exposes no public developer API, OpenAPI
+  specification, SDKs, or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/slang-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +18,30 @@ x-backed-by:
 - wing-venture-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://cdn.prod.website-files.com/61aa7a8f9272d51e4f71a7c9/687bb6a56d9bb33edbe30671_Frame%201437255244.png
 tags:
 - Company
+- Voice AI
+- Restaurants
+- Conversational AI
+- Reservations
+- Phone
+- Customer Experience
+- Hospitality
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +51,30 @@ maintainers:
 common:
 - type: Website
   url: https://www.slang.ai/
+- type: Pricing
+  url: https://www.slang.ai/pricing
+- type: Blog
+  url: https://www.slang.ai/blog
+- type: TermsOfService
+  url: https://www.slang.ai/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.slang.ai/privacy-policy
+- type: Support
+  url: https://portal.usepylon.com/slang-ai/forms/support-ticket
+- type: HelpCenter
+  url: https://help.slang.ai/
+- type: SignUp
+  url: https://ilove.slang.ai
+- type: TrustCenter
+  url: https://app.drata.com/trust/b282753a-0e51-4d25-83de-5e3e26540256
+- type: DomainSecurity
+  url: security/slang-ai-domain-security.yml
+- type: WellKnown
+  url: well-known/slang-ai-well-known.yml
+- type: LLMsTxt
+  url: llms/slang-ai-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 4
+  pass: local-v1

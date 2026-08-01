@@ -1,0 +1,15 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.slang.ai/
+url: https://app.drata.com/trust/b282753a-0e51-4d25-83de-5e3e26540256
+platform: Drata Trust Center
+certifications: []
+certifications_note: Slang AI publishes a Drata-hosted trust center linked from its
+  marketing site footer. The trust portal itself returns HTTP 403 to unauthenticated
+  fetches, so the specific certifications (SOC 2, ISO 27001, etc.) could not be
+  verified verbatim and are intentionally left unlisted rather than fabricated. The
+  Enterprise plan advertises SSO/MFA, consistent with a formal security program.
+evidence:
+- source: https://www.slang.ai/
+  kind: footer-link
+  detail: Trust Center link to Drata portal
